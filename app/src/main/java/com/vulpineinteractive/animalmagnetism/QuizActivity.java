@@ -33,12 +33,13 @@ public class QuizActivity extends AppCompatActivity
     {
         String[] questions = {
                 "I value my friends and family above all else.",
-                "I love the open road and road trips are the best!"
+                "Road trips are the best!"
         };
 
         QuizAnimal dog = new QuizAnimal(
             "canine",
             "Loyal, trustworthy and above all: Everyone's best friend.",
+            "doggo",
             false,
             questions
         );

@@ -12,6 +12,7 @@ public class QuizAnimal
     private String mName;
     private String mDescription;
     private String mCaption;
+    private String mImageName;
     private boolean mIsTextInput;
     private TreeMap<String, Integer> mQuestions = new TreeMap<>();
 
@@ -24,6 +25,10 @@ public class QuizAnimal
     public String getCaption() { return mCaption; }
 
     public void setCaption(String caption) { mCaption = caption; }
+
+    public String getImageName() { return mImageName; }
+
+    public void setImageName(String imageName) { mImageName = imageName; }
 
     public TreeMap<String, Integer> getQuestions() { return mQuestions; }
 
@@ -39,11 +44,12 @@ public class QuizAnimal
 
 
     //class constructors
-    public QuizAnimal(String name, String description, boolean isTextInput, String[] questions)
+    public QuizAnimal(String name, String description, String imageName, boolean isTextInput, String[] questions)
     {
         //init vars
         mName = name;
         mDescription = description;
+        mImageName = imageName;
         mIsTextInput = isTextInput;
 
         for (String question : questions)
