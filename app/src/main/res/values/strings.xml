@@ -1,3 +1,40 @@
 <resources>
     <string name="app_name">AnimalMagnetism</string>
+
+    <!-- Quiz questions -->
+    <string name="canine1">I value my friends and family above all else.</string>
+    <string name="canine2">Road trips are the best!</string>
+    <string name="canine3">I can eat just about anything when I\'m hungry.</string>
+    <string name="canine4">My friends and family are everything to me.</string>
+    <string name="canine5">I\'m loyal, but only for a select few.</string>
+    <string name="cat1">I\'m lazy, but I do it with style.</string>
+    <string name="cat2">I\'m condescending in a loving way.</string>
+    <string name="cat3">My loyalty can be bought with the right bribes.</string>
+    <string name="cat4">Every now and then, I go completely nuts.</string>
+    <string name="cat5">I\'m pretty street smart.</string>
+    <string name="dolphin1">I\'m a free spirit.</string>
+    <string name="dolphin2">I\'m an amazing swimmer.</string>
+    <string name="dolphin3">Teamwork is very important when tackling big issues.</string>
+    <string name="dolphin4">I\'m a bit of a hedonist.</string>
+    <string name="dophin5">Nothing is more important than freedom.</string>
+    <string name="bird1">I\'m not afraid of heights</string>
+    <string name="bird2">I pretty much go wherever I want.</string>
+    <string name="bird3">I\'m a responsible parent or partner.</string>
+    <string name="bird4">It\'s better to work smarter, not harder.</string>
+    <string name="bird5">I\'m generally a morning person.</string>
+    <string name="reptile1">Motivation comes and goes.</string>
+    <string name="reptile2">I\'m kind of a loner.</string>
+    <string name="reptile3">It takes time to earn trust.</string>
+    <string name="reptile4">I\'m often misunderstood.</string>
+    <string name="reptile5">I don\'t express my feelings very well, but they are there.</string>
+    <string name="dogDesc">You\'re a Doggo! You are loyal, trustworthy and above all: Everyone\'s best friend.</string>
+    <string name="dogName">Dog</string>
+    <string name="catName">Cat</string>
+    <string name="catDesc">You are kitty! You are a bit selfish and lazy, but you have other qualities that endear you to others.</string>
+    <string name="dolphinName">Dolphin</string>
+    <string name="dolphinDesc">You are a dolphin. You are free spirited and a social ace. You understand that experiences are more valuable than material things.</string>
+    <string name="birdName">Bird</string>
+    <string name="birdDesc">You are a bird. Free and intelligent, you figure things out in the world around you. Puzzles and philosophies are no problem for you.</string>
+    <string name="reptileName">Reptile</string>
+    <string name="reptileDesc">You are a reptile. You\'re smart, but a bit cold and you aren\'t always socially comfortable. Your independance takes you farther than those around you.</string>
 </resources>

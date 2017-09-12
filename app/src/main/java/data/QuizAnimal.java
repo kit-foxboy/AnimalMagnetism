@@ -13,7 +13,6 @@ public class QuizAnimal
     private String mDescription;
     private String mCaption;
     private String mImageName;
-    private boolean mIsTextInput;
     private TreeMap<String, Integer> mQuestions = new TreeMap<>();
 
 
@@ -30,8 +29,23 @@ public class QuizAnimal
 
     public void setImageName(String imageName) { mImageName = imageName; }
 
-    public TreeMap<String, Integer> getQuestions() { return mQuestions; }
 
+    //class constructors
+    public QuizAnimal(String name, String description, String imageName, String[] questions)
+    {
+        //init vars
+        mName = name;
+        mDescription = description;
+        mImageName = imageName;
+
+        for (String question : questions)
+        {
+            mQuestions.put(question, 0);
+        }
+    }
+
+
+    //class methods
     public void updateScore(String question, int score)
     {
         int currentScore = mQuestions.get(question);
@@ -40,21 +54,28 @@ public class QuizAnimal
         mQuestions.put(question, currentScore);
     }
 
-    public Integer getScore(String question) { return mQuestions.get(question); }
-
-
-    //class constructors
-    public QuizAnimal(String name, String description, String imageName, boolean isTextInput, String[] questions)
+    public void resetScore(String key)
     {
-        //init vars
-        mName = name;
-        mDescription = description;
-        mImageName = imageName;
-        mIsTextInput = isTextInput;
+        mQuestions.put(key, 0);
+    }
 
-        for (String question : questions)
+    public int getTotalScore()
+    {
+        int total = 0;
+
+        for(Integer val : mQuestions.values())
         {
-            mQuestions.put(question, 0);
+            total += val;
+        }
+
+        return total;
+    }
+
+    public void resetTotalScore()
+    {
+        for(String key : mQuestions.keySet())
+        {
+            mQuestions.put(key, 0);
         }
     }
 }
