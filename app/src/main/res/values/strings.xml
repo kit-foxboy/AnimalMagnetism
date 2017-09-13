@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">AnimalMagnetism</string>
+
+    <!-- activityQuiz strings -->
+    <string-array name="answersArray">
+        <item>Strongly Agree</item>
+        <item>Agree</item>
+        <item>Neutral</item>
+        <item>Disagree</item>
+        <item>Strongly Disagree</item>
+    </string-array>
+
 </resources>
